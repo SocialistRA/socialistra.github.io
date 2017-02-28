@@ -21,7 +21,7 @@ description: > # this means to ignore newlines until "baseurl:"
   animal liberators, anti-fascists, anti-racists, anti-capitalists, ultra left-wing Radicals, 
   YOU are all welcome to join!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.socialistra.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.socialistra.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:
 favicon: "assets/images/favicon.ico"
