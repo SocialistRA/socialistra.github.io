@@ -25,6 +25,7 @@ url: "https://www.socialistra.org" # the base hostname & protocol for your site,
 twitter_username:
 github_username:
 favicon: "assets/images/favicon.ico"
+logo: "assets/images/workers-front-sight-64.png"
 
 # Build settings
 markdown: kramdown
