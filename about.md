@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+excerpt: About the Socialist Rifle Association and our goals.
 ---
 The Socialist Rifle Association's mission is to arm and train the working class for self-defense.
 

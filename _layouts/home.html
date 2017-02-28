@@ -4,8 +4,9 @@ layout: default
 
 <div class="home">
 
-  <p><a href="{% link local-chapters.md %}">Find a local chapter here</a></p>
-
+  {% if site.banner %}
+  <p><a href="{{ site.banner-link }}"><img src="{{ site.banner }}" /></a></p>
+  {% endif %}
   <h1 class="page-heading">Blog Posts</h1>
   
   {{ content }}

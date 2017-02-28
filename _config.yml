@@ -26,6 +26,8 @@ twitter_username:
 github_username:
 favicon: "/assets/images/favicon.ico"
 logo: "/assets/images/workers-front-sight-64.png"
+banner: "/assets/images/banner.jpg"
+banner-link: "/local-chapters/"
 
 # Build settings
 markdown: kramdown

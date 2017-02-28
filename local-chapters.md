@@ -2,6 +2,7 @@
 layout: page
 title: Local Chapters
 permalink: /local-chapters/
+excerpt: Find a local chapter or related organization near you.
 ---
 
 ## Find a local chapter near you
