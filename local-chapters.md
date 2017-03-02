@@ -7,16 +7,11 @@ excerpt: Find a local chapter or related organization near you.
 
 ## Find a local chapter near you
 
-* [Connecticut](https://www.facebook.com/groups/886013348077782/ "Facebook Group")
-* [Houston, TX](https://www.facebook.com/groups/381339518683960/ "Facebook Group")
-* [Louisville](https://www.facebook.com/groups/1506289306280023/ "Facebook Group")
-* [Greater Washington](https://www.facebook.com/pages/Socialist-Rifle-Association-Greater-Washington/319672751546278 "Facebook Group")
-* [Greater Seattle](https://www.facebook.com/groups/1503313489907581/ "Facebook Group")
-* [California](https://www.facebook.com/groups/726774217377766/ "Facebook Group")
-* [New England](https://www.facebook.com/SRANewEngland "Facebook Group")
-* [New York](https://www.facebook.com/groups/1382459212049950/ "Facebook Group")
-* [Northwoods, WI](https://www.facebook.com/groups/NorthwoodsWISRA/ "Facebook Group")
-* [Tulsa](https://www.facebook.com/SocialistRATulsa/ "Facebook Group")
+<ul>
+    {% for chapter in site.data.chapters %}
+    <li><a href="{{ chapter.link }}">{{ chapter.name }}</a></li>
+    {% endfor %}
+</ul>
 
 ## Related Organizations
 
