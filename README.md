@@ -1,6 +1,8 @@
 
 # Socialist Rifle Association website
 
+See the site here: [https://www.socialistra.org](https://www.socialistra.org)
+
 The Socialist Rifle Association's mission is to arm and train the working class for self-defense.
 
 If you are any of the following: Working class, anarchists, eco-warriors, class warriors, 
