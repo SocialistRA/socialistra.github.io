@@ -25,7 +25,7 @@ url: "https://www.socialistra.org" # the base hostname & protocol for your site,
 twitter_username:
 github_username:
 favicon: "/assets/images/favicon.ico"
-logo: "/assets/images/workers-front-sight-64.png"
+logo: "/assets/images/black-star-32.png"
 banner: "/assets/images/banner.jpg"
 banner-link: "/local-chapters/"
 
