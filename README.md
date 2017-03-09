@@ -27,3 +27,4 @@ To the right of that is a Pull Request button. Click it, edit description if nee
 8. The active contributers will review your changes or blog post, suggest edits, or approve.
 
 Thanks for contributing!
+
