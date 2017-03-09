@@ -49,17 +49,40 @@ body {
   	position: relative;
 }
 
-#b-title {
-	font-size: 2em;
-	width: 80%;
-	bottom: 2.5em;
+#b-underlay {
+	font-size: 3.5em;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
 	left: 0;
 	right: 0;
-	top: 12.5em;
+	top: 25vh;
+	color: transparent;
+	z-index: 9;
+	position: absolute;
+	text-align: center;
+	font-family: Avenir Light;
+	text-shadow: 0px 0px 15px #000;
+	background-color: #000;
+	padding: 1em;
+	opacity: 0.7;
+}
+
+#b-title {
+	font-size: 3.5em;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top: 25vh;
 	color: #fff;
 	z-index: 10;
 	position: absolute;
+	text-align: center;
 	font-family: Avenir Light;
+	text-shadow: 0px 0px 15px #000;
+	padding: 1em;
 }
 
 #b-sub {
