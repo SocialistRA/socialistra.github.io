@@ -119,8 +119,7 @@ body {
 #first {
 	width: 70%;
 	background-color: #fff;
-	margin: auto auto;
-	margin-top: 9em; 
+	margin: 9em auto 9em auto;
 	padding: 0 5em 2em 5em;
 }
 
@@ -139,13 +138,33 @@ p.article {
 }
 
 footer {
-	height: 4em;
+	height: 5em;
 	padding: 0.5em;
 	font-size: 3.5em;
 	line-height: 2em;
 	background-color: #292929;
 	color: #a8a8a8;
 	border: none;
+	margin: 0;
+	font-family: Avenir Light;
+}
+
+footer img {
+	width: 2.5em;
+	margin-left: 2em;
+	margin-top: 0.6em;
+	margin-bottom: 0;
+	padding: 0;
+	image-rendering: -webkit-optimize-contrast
+}
+
+p.footer {
+	width: 25vw;
+	margin-left: 7em;
+	font-size: 0.3em;
+	line-height: 1em !important;
+	margin-top: -1.5em;
+	padding: 0;
 }
 
 
