@@ -1,0 +1,77 @@
+@font-face {
+	font-family: Avenir Light;
+	src: url('../fonts/Avenir-Light.ttf');
+}
+
+body {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#menu {
+	height: 2em;
+	padding: 0.5em;
+	font-size: 3.5em;
+	line-height: 2em;
+	background-color: #fff;
+	color: #000;
+	border: none;
+}
+
+#logo {
+	float: left;
+	display: inline-block;
+}
+
+#logo img {
+	height: 1.8em;
+	padding: 0.1em 0 0.1em 0.5em;
+	margin-left: 0;
+	background-color: #fff;
+	border-radius: 3px;
+	image-rendering: -webkit-optimize-contrast;
+}
+
+#ham-toggle {
+	display: inline-block;
+	float: right;
+	padding-right: 0.5em;
+}
+
+#banner {
+	background-image: url('https://s3.amazonaws.com/content.sitezoogle.com/u/190141/4dfbdf7e466977c70a2b31ce5fc213504fc443a6/original/11043387-924552384244456-5038302486444025151-o.jpg?1452809339');
+	background-position: top center;
+	background-size: cover;
+	height: 75vh;
+	width: 100%;
+	display: block;
+  	position: relative;
+}
+
+#b-title {
+	font-size: 2em;
+	width: 80%;
+	bottom: 2.5em;
+	left: 0;
+	right: 0;
+	top: 12.5em;
+	color: #fff;
+	z-index: 10;
+	position: absolute;
+	font-family: Avenir Light;
+}
+
+#b-sub {
+	font-size: 0.75em;
+}
+
+#overlay {
+	height: 75vh;
+	width: 100%;
+	background-image: url("../img/overlay.png");
+	opacity: 0.4;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
