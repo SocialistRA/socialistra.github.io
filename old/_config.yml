@@ -1,0 +1,39 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: "Socialist Rifle Association"
+email: webmaster@socialistra.org
+description: > # this means to ignore newlines until "baseurl:"
+  The Socialist Rifle Association's mission is to arm and train the working class for self-defense.
+  If you are any of the following – Working class, anarchists, eco-warriors, class warriors, 
+  animal liberators, anti-fascists, anti-racists, anti-capitalists, ultra left-wing Radicals, 
+  YOU are all welcome to join!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.socialistra.org" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username:
+github_username:
+favicon: "/assets/images/favicon.ico"
+logo: "/assets/images/black-star-32.png"
+banner: "/assets/images/banner.jpg"
+banner-link: "/local-chapters/"
+
+# Build settings
+markdown: kramdown
+#theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
