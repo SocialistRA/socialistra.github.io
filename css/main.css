@@ -143,18 +143,6 @@ p.article {
 	font-weight: 700;
 }
 
-footer {
-	height: auto;
-	padding: 50px;
-	font-size: 3.5em;
-	line-height: 2em;
-	background-color: #292929;
-	color: #a8a8a8;
-	border: none;
-	margin: 0;
-	font-family: Avenir Light;
-}
-
 /*  SECTIONS  */
 .section {
 	clear: both;
@@ -183,7 +171,10 @@ footer {
 /*  GRID OF THREE  */
 .span_3_of_3 { width: 100%; }
 .span_2_of_3 { width: 66.13%; }
-.span_1_of_3 { width: 32.26%; }
+.span_1_of_3 {
+	width: 32.26%;
+	margin: auto auto;
+}
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 480px) {
@@ -191,18 +182,75 @@ footer {
 	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
 }
 
+footer {
+	height: auto;
+	padding: 50px;
+	font-size: 2em;
+	line-height: 1em;
+	background-color: #292929;
+	color: #a8a8a8;
+	border: none;
+	margin: 0;
+	font-family: Avenir Light;
+}
+
 footer img {
 	height: 50px;
-	margin: 0 25px 0 25px;
+	margin: 0 0 0 25px;
 	padding: 0;
 	image-rendering: -webkit-optimize-contrast
 }
 
 p.footer {
-	font-size: 0.3em;
+	font-size: 0.5em;
 	line-height: 1em !important;
 	font-weight: 100;
-	margin: -1em 25px 0 25px;
+	margin: 0 0 0 25px;
+}
+
+p.f-middle {
+	font-size: 0.5em;
+	line-height: 1em !important;
+	font-weight: 100;
+	margin: 0 0 0 25px;
+	text-align: center;
+}
+
+span.follow {
+	padding: 0;
+	font-size: 1em;
+	line-height: 1em;
+	margin: 0 0 0 25px;
+	float: right;
+}
+
+footer ul {
+	padding: 0;
+    line-height: 0.5em;
+    font-size: 1em;
+    margin: 0 0 0 25px;
+    float: right;
+    color: #fff;
+}
+
+footer .fa {
+	color: #a8a8a8;
+}
+
+.fa-twitter-square:hover {
+	color: #1da1f2;
+}
+
+.fa-youtube-square:hover {
+	color: #cc181e;
+}
+
+.fa-facebook-square:hover {
+	color: #4267b2;
+}
+
+.fa-reddit-square:hover {
+	color: #ff4006;
 }
 
 
@@ -360,7 +408,17 @@ p.footer {
 		margin-top: -2em;
 		font-weight: 100;
 	}
-	p:last-of-type {
-		padding-bottom: 50px;
+	p.f-middle {
+		text-align: left;
+	}
+
+	span.follow {
+		display: none;
+	}
+	
+	footer ul {
+	    float: left;
+	    line-height: 1em;
+		font-size: 1em;
 	}
 }
