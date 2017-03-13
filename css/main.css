@@ -28,7 +28,11 @@ hr {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-#menu {
+a {
+	text-decoration: none;
+}
+
+#bar {
 	height: 2em;
 	padding: 0.5em;
 	font-size: 3.5em;
@@ -36,6 +40,14 @@ hr {
 	background-color: #fff;
 	color: #000;
 	border: none;
+}
+
+#menu {
+	width: 100%;
+	background-color: #292929;
+	text-align: center;
+	padding-bottom: 10px;
+	display: none;
 }
 
 #logo {
@@ -48,7 +60,6 @@ hr {
 	padding: 0.1em 0 0.1em 0.5em;
 	margin-left: 0;
 	background-color: #fff;
-	border-radius: 3px;
 	image-rendering: -webkit-optimize-contrast;
 }
 
@@ -148,7 +159,7 @@ p.article {
 	clear: both;
 	padding: 0px;
 	margin: 0px;
-	background-color: #292929;
+	background-color: transparent;
 	color: #a8a8a8;
 	width: 90%;
 	margin: auto auto;
@@ -168,18 +179,23 @@ p.article {
 .group:after { clear:both;}
 .group { zoom:1; /* For IE 6/7 */ }
 
-/*  GRID OF THREE  */
-.span_3_of_3 { width: 100%; }
-.span_2_of_3 { width: 66.13%; }
 .span_1_of_3 {
 	width: 32.26%;
 	margin: auto auto;
 }
 
+.span_1_of_5 {
+	width: 18.72%;
+	font-family: Avenir Light;
+	background-color: #fff;
+	color: #292929;
+	padding: 10px 0 10px 0; 
+}
+
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 480px) {
 	.col {  margin: 1% 0 1% 0%; }
-	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+	.span_1_of_3,.span_1_of_5 { width: 100%; }
 }
 
 footer {
@@ -230,11 +246,13 @@ footer ul {
     font-size: 1em;
     margin: 0 0 0 25px;
     float: right;
+    text-align: right;
     color: #fff;
 }
 
 footer .fa {
 	color: #a8a8a8;
+	text-decoration: none;
 }
 
 .fa-twitter-square:hover {
@@ -256,7 +274,7 @@ footer .fa {
 
 /* Mobile */
 @media screen and (max-width: 736px) {
-	#menu {
+	#bar {
 		height: 1em;
 		padding: 0.2em;
 		font-size: 3.5em;
@@ -266,10 +284,18 @@ footer .fa {
 		border: none;
 	}
 
+	#menu {
+		width: 100%;
+		margin: auto auto;
+		background-color: #292929;
+		text-align: center;
+		padding: 10px 0 10px 0;
+	}
+
 	.logo {
     	content:url("../img/logo.png");
   	}
-	
+
 	#logo {
 		float: left;
 		display: inline-block;
@@ -279,6 +305,19 @@ footer .fa {
 	
 	#logo img {
 		height: 3em;
+		padding: 0 0.2em 0.2em 0.2em;
+		margin-left: 0;
+		background-color: #fff;
+		border-radius: 3px;
+		image-rendering: -webkit-optimize-contrast;
+	}
+
+	.menu-open {
+		content:url("../img/logo2.png");
+	}
+
+	#logo img.menu-open {
+		height: 1em;
 		padding: 0 0.2em 0.2em 0.2em;
 		margin-left: 0;
 		background-color: #fff;
@@ -419,6 +458,7 @@ footer .fa {
 	footer ul {
 		margin-top: -2em;
 	    float: left;
+	    text-align: right;
 	    line-height: 1em;
 		font-size: 1em;
 	}
