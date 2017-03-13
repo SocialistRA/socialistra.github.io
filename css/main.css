@@ -22,6 +22,12 @@ body {
 	background-color: #f5f5f5;
 }
 
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
 #menu {
 	height: 2em;
 	padding: 0.5em;
@@ -132,14 +138,14 @@ p.article {
 #section-title {
 	text-align: center;
 	font-size: 4em;
-	padding: 1em;
+	padding: 1em 0 0.5em 0;
 	font-family: AvenirNext Bold;
 	font-weight: 700;
 }
 
 footer {
-	height: 5em;
-	padding: 0.5em;
+	height: auto;
+	padding: 50px;
 	font-size: 3.5em;
 	line-height: 2em;
 	background-color: #292929;
@@ -149,23 +155,54 @@ footer {
 	font-family: Avenir Light;
 }
 
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+	background-color: #292929;
+	color: #a8a8a8;
+	width: 90%;
+	margin: auto auto;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+
 footer img {
-	width: 2.5em;
-	margin-left: 2em;
-	margin-top: 1.2em;
-	margin-bottom: 0;
+	height: 50px;
+	margin: 0 25px 0 25px;
 	padding: 0;
 	image-rendering: -webkit-optimize-contrast
 }
 
 p.footer {
-	width: 25vw;
-	margin-left: 7em;
 	font-size: 0.3em;
 	line-height: 1em !important;
-	padding: 0;
-	margin-top: -1em;
 	font-weight: 100;
+	margin: -1em 25px 0 25px;
 }
 
 
@@ -285,7 +322,6 @@ p.footer {
 	}
 
 	footer {
-		height: 5em;
 		padding: 0;
 		font-size: 2.5em;
 		line-height: 2.5em;
@@ -294,6 +330,16 @@ p.footer {
 		border: none;
 		margin: 0;
 		font-family: Avenir Light;
+	}
+
+	.section {
+		clear: both;
+		padding: 0px;
+		margin: 0px;
+		background-color: #292929;
+		color: #a8a8a8;
+		width: 100%;
+		margin: auto auto;
 	}
 
 	footer img {
@@ -313,5 +359,8 @@ p.footer {
 		padding: 0;
 		margin-top: -2em;
 		font-weight: 100;
+	}
+	p:last-of-type {
+		padding-bottom: 50px;
 	}
 }
