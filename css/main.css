@@ -417,6 +417,7 @@ footer .fa {
 	}
 	
 	footer ul {
+		margin-top: -2em;
 	    float: left;
 	    line-height: 1em;
 		font-size: 1em;
