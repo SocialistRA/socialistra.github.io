@@ -102,6 +102,23 @@ a {
 	opacity: 0.7;
 }
 
+#b-underlay #read {
+	visibility: hidden;
+}
+
+#read {
+	font-family: AvenirNext Bold;
+	background-color: #ff0909;
+	font-size: 0.3em;
+	padding: 10px 20px 10px 20px;
+	line-height: 0.3em;
+	text-shadow: none;
+}
+
+#read:hover {
+	cursor: pointer;
+}
+
 #b-title {
 	font-size: 4em;
 	width: 50%;
@@ -137,7 +154,7 @@ a {
 	width: 70%;
 	background-color: #fff;
 	margin: 9em auto 9em auto;
-	padding: 0 5em 2em 5em;
+	padding: 0 5em 5em 5em;
 }
 
 p.article {
@@ -184,6 +201,10 @@ p.article {
 	margin: auto auto;
 }
 
+.span_1_of_4 {
+	width: 23.8%;
+}
+
 .span_1_of_5 {
 	width: 18.72%;
 	font-family: Avenir Light;
@@ -192,10 +213,10 @@ p.article {
 	padding: 10px 0 10px 0; 
 }
 
-/*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 480px) {
-	.col {  margin: 1% 0 1% 0%; }
-	.span_1_of_3,.span_1_of_5 { width: 100%; }
+.span_1_of_5:hover {
+	background-color: #ff0909;
+	cursor: pointer;
+	color: #fff;
 }
 
 footer {
@@ -274,6 +295,13 @@ footer .fa {
 
 /* Mobile */
 @media screen and (max-width: 736px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_3,.span_1_of_5 { width: 100%; }
+	.span_1_of_5 {
+		text-transform: uppercase;
+		font-family: AvenirNext Bold;
+	}
+
 	#bar {
 		height: 1em;
 		padding: 0.2em;

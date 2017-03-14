@@ -4,59 +4,66 @@ new Maplace({
     	{
     	    lat: 36.7854513,
     	    lon: -119.9346453,
-    	    zoom: 5,
+    	    zoom: 6,
     	    title: 'California',
     	    html: "<a href=\"https://www.facebook.com/groups/726774217377766/\">Socialist Rifle Association of California</a>"
     	},
     	{
     	    lat: 41.5173992,
     	    lon: -73.3179298,
-    	    zoom: 5,
+    	    zoom: 6,
     	    title: "Connecticut",
     	    html: "<a href=\"https://www.facebook.com/groups/886013348077782/\">Socialist Rifle Association of Connecticut</a>"
     	},
     	{
-    	    lat: 29.8168824,
-    	    lon: -95.6814787,
-    	    zoom: 5,
-    	    title: 'Houston',
-    	    html: "<a href=\"https://www.facebook.com/groups/381339518683960/\">Socialist Rifle Association of Houston</a>"
-    	},
-    	{
-    	    lat: 38.1887218,
-    	    lon: -85.8168542,
-    	    zoom: 5,
-    	    title: 'Louisville',
-    	    html: "<a href=\"https://www.facebook.com/groups/1506289306280023/\">Socialist Rifle Association of Louisville</a>"
-    	},
-    	{
     	    lat: 38.9269959,
     	    lon: -77.3122119,
-    	    zoom: 5,
+    	    zoom: 6,
     	    title: 'Greater Washington',
     	    html: "<a href=\"https://www.facebook.com/Socialist-Rifle-Association-Greater-Washington-319672751546278/\">Socialist Rifle Association of Greater Washington</a>"
     	},
     	{
     	    lat: 47.7481925,
     	    lon: -122.5424672,
-    	    zoom: 5,
+    	    zoom: 6,
     	    title: 'Greater Seattle',
     	    html: "<a href=\"https://www.facebook.com/groups/1503313489907581/\">Socialist Rifle Association of Greater Seattle</a>"
     	},
+        {
+            lat: 29.8168824,
+            lon: -95.6814787,
+            zoom: 6,
+            title: 'Houston',
+            html: "<a href=\"https://www.facebook.com/groups/381339518683960/\">Socialist Rifle Association of Houston</a>"
+        },
+        {
+            lat: 38.1887218,
+            lon: -85.8168542,
+            zoom: 6,
+            title: 'Louisville',
+            html: "<a href=\"https://www.facebook.com/groups/1506289306280023/\">Socialist Rifle Association of Louisville</a>"
+        },
     	{
     	    lat: 40.705311,
     	    lon: -74.2581857,
-    	    zoom: 5,
+    	    zoom: 6,
     	    title: 'New York',
     	    html: "<a href=\"https://www.facebook.com/groups/1382459212049950/\">Socialist Rifle Association of New York</a>"
     	},
+        {
+            lat: 36.1524972,
+            lon: -96.0180949,
+            zoom: 6,
+            title: 'Tulsa',
+            html: "<a href=\"https://www.facebook.com/SocialistRATulsa/\">Socialist Rifle Association of Oklahoma</a>"
+        },
     	{
     	    lat: 44.9867938,
     	    lon: -91.3625065,
-    	    zoom: 5,
-    	    title: 'Wisconsin',
+    	    zoom: 6,
+    	    title: 'Northwoods',
     	    html: "<a href=\"https://www.facebook.com/groups/NorthwoodsWISRA/\">Socialist Rifle Association of Wisconsin</a>"
-    	},
+    	}
     ],
     start: 0,
     map_options: {
