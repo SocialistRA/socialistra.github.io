@@ -1,8 +1,3 @@
-<!--
-Contact: 
-J. L. Hamilton
-twitter.com/absinthol
--->
 <!DOCTYPE html>
 <html>
 <head>
@@ -40,14 +35,20 @@ twitter.com/absinthol
 		</div>
 	</div>
 	<div id="banner">
-		<div id="b-underlay">Huey P. Newton Gun Club<br><span id="b-sub">The Right to Rebel</span><br><span id="read">READ NOW</span></div>
-		<div id="b-title">Huey P. Newton Gun Club<br><span id="b-sub">The Right to Rebel</span><br><span id="read">READ NOW</span></div>
+		<div id="b-underlay">Huey P. Newton Gun Club<br><span id="b-sub">The Right to Rebel</span></div>
+		<div id="b-title">Huey P. Newton Gun Club<br><span id="b-sub">The Right to Rebel</span></div>
 		<div id="overlay"></div>
 	</div>
 	<div id="first">
-		<div id="section-title">Find Your Local Chapter</div>
+		<div id="section-title">Huey P. Newton Gun Club</div>
 		<hr>
-		<div id="gmap-styled" style="with:500px;height:400px;"></div>
+		<p>The Huey P. Newton Gun Club is a coalition of different organizations and groups supporting armed self defense as well as patrols. Guerrilla Mainframe has been a primary component to this formation creation first publicly doing a armed maneuver on August 20th 2014. The reason for the patrols was a response to Open Records Request done by “Dallas Communities Organizing For Change” which showed a consistent issue of Police Brutality as it relates to black, brown, and poor whites. Clinton Allen was murdered on March 10th 2013 by DPD officer Clark Staller #9514, Clinton Allen was shot seven times including once in the back, was another case of a unarmed African American victim of apparent police violence. Since the first patrol in 2014, there has been numerous patrols in Oak Cliff, South Dallas, as well as Pleasant Grove. The platform for these patrols are as follows:</p>
+		<ol>
+			<li>We want to Arm All Black, Brown, and Poor men/women across the United States that can “legally” bear arms.</li>
+			<li>We want to end black on black violence or “fratricide” in a effort to unity internal forces in the Black Community</li>
+			<li>We want immediate end to police terrorism and murder of the people. (Black, Brown, and Poor)</li>
+		</ol>
+		</p>
 	</div>
 	<footer>
 		<div class="section group">
@@ -56,7 +57,7 @@ twitter.com/absinthol
 				<p class="footer">The Socialist Rifle Association's mission is to uphold the right of the working class to keep and bear arms for the purpose of self-defense.</p>
 			</div>
 			<div class="col span_1_of_3">
-				<p class="f-middle">&nbsp;&nbsp;test</p>
+				<p class="f-middle">&nbsp;&nbsp;</p>
 			</div>
 			<div class="col span_1_of_3">
 				<span class="follow">Follow Us</span><br>

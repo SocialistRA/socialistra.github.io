@@ -7,6 +7,6 @@ $('#ham-toggle').click(function() {
   	$('#ham-toggle i').attr("class", "fa fa-bars");
   	$('#menu').css('display','none');
   	$('#banner').css('margin-top','0');
-  	$('#logo img').attr("class", "logo");
+  	$('#logo img').attr("class", "page-logo");
   }
 });
