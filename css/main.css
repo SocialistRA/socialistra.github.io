@@ -159,6 +159,10 @@ a {
 	padding: 0 5em 5em 5em;
 }
 
+#first img {
+	max-width: 100%;
+}
+
 p.article {
 	font-size: 1.5em;
 	font-family: Avenir Light;
