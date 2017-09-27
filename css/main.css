@@ -161,6 +161,8 @@ a {
 
 #first img {
 	max-width: 100%;
+    margin: auto auto;
+    display: block;
 }
 
 p.article {
@@ -358,6 +360,15 @@ footer .fa {
 	
 	#logo img {
 		height: 3em;
+		padding: 0 0.2em 0.2em 0.2em;
+		margin-left: 0;
+		background-color: #fff;
+		border-radius: 3px;
+		image-rendering: -webkit-optimize-contrast;
+	}
+
+	#logo img.page-logo {
+		height: 1em;
 		padding: 0 0.2em 0.2em 0.2em;
 		margin-left: 0;
 		background-color: #fff;
