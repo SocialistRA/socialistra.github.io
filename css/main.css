@@ -31,7 +31,7 @@ hr {
 }
 
 a {
-	text-decoration: underline;
+	text-decoration: none;
 	color: inherit;
 }
 
@@ -214,6 +214,7 @@ p.article {
 #image-credit {
 	color: #aaa;
 	font-style: italic;
+	text-decoration: underline;
 }
 
 #article-content {
@@ -336,6 +337,7 @@ footer ul {
     float: right;
     text-align: right;
     color: #fff;
+    text-decoration: none;
 }
 
 footer .fa {
