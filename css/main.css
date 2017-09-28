@@ -27,7 +27,7 @@ body {
 hr {
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-color: #ebebeb;
 }
 
 a {
@@ -177,6 +177,33 @@ p.article {
 	padding: 1em 0 0.5em 0;
 	font-family: AvenirNext Bold;
 	font-weight: 700;
+}
+
+#article-title {
+	text-align: left;
+	font-size: 4em;
+	padding: 1em 0 0.5em 0;
+	font-family: AvenirNext Bold;
+	font-weight: 700;
+}
+
+#author {
+	padding-bottom: 2em;
+}
+
+#author-info {
+	display: inline-block;
+	vertical-align: top;
+	margin: 19px 0 0 10px;
+}
+
+#image-credit {
+	color: #aaa;
+	font-style: italic;
+}
+
+#article-content {
+	font-size: larger;
 }
 
 /*  SECTIONS  */
