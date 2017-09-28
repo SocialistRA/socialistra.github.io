@@ -197,6 +197,54 @@ p.article {
 	font-weight: 700;
 }
 
+#twit_share {
+	height: 40px;
+	width: 150px;
+	background-color: #598dca;
+	line-height: 40px;
+	float: left;
+	display: inline-block;
+}
+
+#twit_share span {
+	padding-left: 9px;
+	color: #fff;
+}
+
+#twit_share img {
+	display: inline-block;
+	float: right;
+	padding: 9px 15px 9px 0;
+}
+
+span.share_text {
+	display: inline-block;
+	float: left;
+}
+
+#fb-share-button {
+	height: 40px;
+	width: 150px;
+	background-color: #3a589b;
+	line-height: 40px;
+	float: left;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+#fb-share-button span {
+	padding-left: 20px;
+	color: #fff;
+}
+
+#fb-share-button img {
+	display: inline-block;
+	float: right;
+	margin: 9px 15px 9px 0;
+	line-height: 40px;
+	vertical-align: middle;
+}
+
 #article-image img {
 	text-align: left;
 	max-width: 100%;
