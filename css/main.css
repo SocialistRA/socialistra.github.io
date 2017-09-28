@@ -547,6 +547,10 @@ footer .fa {
 		margin-left: -6%;
 	}
 
+	#image-credit {
+		padding-left: 5%;
+	}
+
 	p.article {
 		font-size: 1em;
 		font-family: Avenir Light;
