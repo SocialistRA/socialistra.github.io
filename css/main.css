@@ -197,7 +197,7 @@ p.article {
 
 #article-image img {
 	text-align: left;
-	margin: none;
+	max-width: 100%;
 	display: block;
 }
 
