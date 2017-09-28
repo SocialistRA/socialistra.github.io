@@ -511,10 +511,17 @@ footer .fa {
 		padding: 0 10vw 5vw 10vw;
 	}
 
-	#article-page {
+	#article-page.closed {
 		width: 90%;
 		background-color: #fff;
 		margin: 9em auto 9em auto;
+		padding: 5%;
+	}
+
+	#article-page.open_page {
+		width: 90%;
+		background-color: #fff;
+		margin: 0 auto 9em auto;
 		padding: 5%;
 	}
 
@@ -533,6 +540,11 @@ footer .fa {
 		padding: 1em 0 0.5em 0;
 		font-family: AvenirNext Bold;
 		font-weight: 700;
+	}
+
+	#article-image {
+		max-width: 112%;
+		margin-left: -6%;
 	}
 
 	p.article {
