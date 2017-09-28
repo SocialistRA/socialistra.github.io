@@ -31,7 +31,7 @@ hr {
 }
 
 a {
-	text-decoration: none;
+	text-decoration: underline;
 	color: inherit;
 }
 
@@ -172,6 +172,13 @@ p.article {
 	text-align: center;
 }
 
+#article-page {
+	width: 70%;
+	background-color: #fff;
+	margin: 9em auto 9em auto;
+	padding: 0 5em 5em 5em;
+}
+
 #section-title {
 	text-align: center;
 	font-size: 4em;
@@ -186,6 +193,12 @@ p.article {
 	padding: 1em 0 0.5em 0;
 	font-family: AvenirNext Bold;
 	font-weight: 700;
+}
+
+#article-image img {
+	text-align: left;
+	margin: none;
+	display: block;
 }
 
 #author {
