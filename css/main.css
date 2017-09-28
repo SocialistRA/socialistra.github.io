@@ -212,6 +212,7 @@ p.article {
 }
 
 #image-credit {
+	font-size: smaller;
 	color: #aaa;
 	font-style: italic;
 	text-decoration: underline;
@@ -510,8 +511,24 @@ footer .fa {
 		padding: 0 10vw 5vw 10vw;
 	}
 
+	#article-page {
+		width: 90%;
+		background-color: #fff;
+		margin: 9em auto 9em auto;
+		padding: 5%;
+	}
+
+
 	#section-title {
 		text-align: center;
+		font-size: 2em;
+		padding: 1em 0 0.5em 0;
+		font-family: AvenirNext Bold;
+		font-weight: 700;
+	}
+
+	#article-title {
+		text-align: left;
 		font-size: 2em;
 		padding: 1em 0 0.5em 0;
 		font-family: AvenirNext Bold;
@@ -573,4 +590,6 @@ footer .fa {
 	
 	footer ul {
 		margin-top: -2em;
-	    float: left
+	    float: left;
+	}
+}	
