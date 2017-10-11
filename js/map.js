@@ -63,7 +63,14 @@ new Maplace({
     	    zoom: 6,
     	    title: 'Northwoods',
     	    html: "<a href=\"https://www.facebook.com/groups/NorthwoodsWISRA/\">Socialist Rifle Association of Wisconsin</a>"
-    	}
+    	},
+        {
+            lat: 40.431478,
+            lon: -80.0505404,
+            zoom: 6,
+            title: 'Pittsburgh',
+            html: "<a href=\"https://www.reddit.com/r/PittsburghSRA/\">Socialist Rifle Association of Pennsylvania</a>"
+        }
     ],
     start: 0,
     map_options: {
