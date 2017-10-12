@@ -333,7 +333,8 @@ span.share_text {
 	font-family: Avenir Light;
 	background-color: #fff;
 	color: #292929;
-	padding: 10px 0 10px 0; 
+	padding: 10px 0 10px 0;
+	margin-left: 1.2%;
 }
 
 .span_1_of_5:hover {
@@ -423,6 +424,7 @@ footer .fa {
 	.col:first-child { margin-left: 0; }
 	.span_1_of_3,.span_1_of_5 { width: 100%; }
 	.span_1_of_5 {
+		margin-left: 0;
 		text-transform: uppercase;
 		font-family: AvenirNext Bold;
 	}
