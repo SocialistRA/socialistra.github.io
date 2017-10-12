@@ -301,7 +301,7 @@ span.share_text {
 	float:left;
 	margin: 1% 0 1% 1.6%;
 }
-.col:first-child { margin-left: 1.2%; }
+.col:first-child { margin-left: 0; }
 
 /*  GROUPING  */
 .group:before,
@@ -334,7 +334,7 @@ span.share_text {
 	background-color: #fff;
 	color: #292929;
 	padding: 10px 0 10px 0;
-	margin-left: 1.2%;
+	margin-left: 1.2% !important;
 }
 
 .span_1_of_5:hover {
