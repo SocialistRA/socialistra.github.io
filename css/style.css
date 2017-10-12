@@ -301,7 +301,7 @@ span.share_text {
 	float:left;
 	margin: 1% 0 1% 1.6%;
 }
-.col:first-child { margin-left: 0; }
+.col:first-child { margin-left: 1.2%; }
 
 /*  GROUPING  */
 .group:before,
@@ -420,6 +420,7 @@ footer .fa {
 /* Mobile */
 @media screen and (max-width: 736px) {
 	.col {  margin: 1% 0 1% 0%; }
+	.col:first-child { margin-left: 0; }
 	.span_1_of_3,.span_1_of_5 { width: 100%; }
 	.span_1_of_5 {
 		text-transform: uppercase;
