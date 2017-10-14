@@ -35,6 +35,10 @@ hr {
     background-color: #ebebeb;
 }
 
+h4 {
+	font-family: Roboto Bold;
+}
+
 a {
 	text-decoration: none;
 	color: inherit;
@@ -83,7 +87,7 @@ a {
 }
 
 #banner {
-	background-image: url('https://s3.amazonaws.com/content.sitezoogle.com/u/190141/4dfbdf7e466977c70a2b31ce5fc213504fc443a6/original/11043387-924552384244456-5038302486444025151-o.jpg?1452809339');
+	background-image: url('../img/prdc.jpg');
 	background-position: top center;
 	background-size: cover;
 	height: 80vh;
