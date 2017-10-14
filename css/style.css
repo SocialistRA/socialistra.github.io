@@ -16,6 +16,11 @@
 }
 
 @font-face {
+	font-family: Roboto Medium;
+	src: url('../fonts/roboto/Roboto-Medium.ttf');
+}
+
+@font-face {
 	font-family: Writer;
 	src: url('../fonts/typew.otf');
 }
@@ -315,7 +320,7 @@ span.share_text {
 
 .span_1_of_3 {
 	width: 32.26%;
-	margin: auto auto;
+    margin: auto auto;
 }
 
 .span_1_of_4 {
@@ -330,6 +335,20 @@ span.share_text {
 	text-align: center;
 	text-transform: capitalize;
 	font-family: Roboto Bold;
+}
+
+.span_1_of_4 img {
+	width: 80%;
+}
+
+.span_1_of_3 img.news_item {
+	width: 90%;
+	border: 2px solid #ebebeb;
+}
+
+p.nit {
+	text-align: center;
+	font-family: Roboto Medium;
 }
 
 .span_1_of_5 {
