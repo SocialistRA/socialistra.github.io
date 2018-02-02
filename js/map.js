@@ -70,6 +70,13 @@ new Maplace({
             zoom: 6,
             title: 'Pittsburgh',
             html: "<a href=\"https://www.reddit.com/r/PittsburghSRA/\">Socialist Rifle Association of Pennsylvania</a>"
+        },
+        {
+            lat: 45.5433229,
+            lon: -122.7945048,
+            zoom: 6,
+            title: 'Portland',
+            html: "<a href=\"https://www.reddit.com/r/PortlandSRA/\">Socialist Rifle Association of Portland</a>"
         }
     ],
     start: 0,
